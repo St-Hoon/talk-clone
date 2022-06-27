@@ -12,12 +12,15 @@
 }
 .members-screen{
     padding: 0px 25px;
-    height: 100vh;
+    height: 500px;
+    
 }
 .members-screen__channel{
+    height: 500px;
     margin-top: 25px;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
     padding-top: 15px;
+    overflow-y: scroll;
     }
 .members-screen__channel-header{
     margin-bottom: 30px;
@@ -40,7 +43,7 @@
         position: absolute;
         height: 100vh;
         width: 100vw;
-        top:0;
+    top: 0;
         display: flex;
         justify-content: center;
         align-items: center;

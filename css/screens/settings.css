@@ -14,3 +14,9 @@
     color: red;
     opacity: 0.5;
 }
+.settings__setting-column_inbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: goldenrod;
+}

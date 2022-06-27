@@ -25,22 +25,26 @@
     font-size: 14px;
     color: rgba(0, 0, 0, 0.5);
 }
-.recommended-members img{
-    margin: 30px 225px 0px 225px;
+.recommended-top{
     display: flex;
-    justify-content: space-between;
-    text-align: center;
-    width: 70px;
-    height: 70px;
-    border-radius: 30px;
-    border-bottom: 0;
+    overflow-x: scroll;
+   
 }
-.recommended-members span {
-    margin: 5px 0px 30px 0px;
+.recommended-top__air{
+    margin: 20px 15px;
+ 
+}
+.recommended-top img{
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+}
+.recommended-top__name {
     display: block;
-    justify-content: space-between;
     text-align: center;
-    font-size: 18px;
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 700;
     color: rgba(0, 0, 0, 0.5);
 }
 .open-chat__header{
